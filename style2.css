@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%;
+}
+
+.pixeles{
+    font-size: 50px;
+    color: #333;
+}
+.rem { 
+    font-size: 5.0rem;
+    color: #5952da;
+}
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 125%;
+        .rem {
+            color: rgb(0, 255, 51);
+        }
+    }
+
+}
